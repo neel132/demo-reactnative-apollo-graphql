@@ -111,7 +111,7 @@ export const usePostQuery = () => {
   // return useQuery(VIEW_POST_PAGINATION);
   const getPaginatedPost = useQuery(VIEW_POST_PAGINATION, {
     variables: {
-      limit: 6,
+      limit: 10,
       cursor: {
         direction: 'next',
         value: null,
